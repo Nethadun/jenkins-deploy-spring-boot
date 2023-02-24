@@ -31,4 +31,10 @@ public class HelloWorldApplication extends SpringBootServletInitializer {
         return "Hello World! Api";
     }
 
+
+    @RequestMapping("/api/2")
+    String helloWorldApi2() {
+        return "Hello World! Api 2";
+    }
+
 }
